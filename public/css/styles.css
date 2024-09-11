@@ -1,0 +1,94 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background: linear-gradient(135deg, #0b0033, #1a004d, #290065, #7f00ff, #ff00ff); /* Dark purples and blues with neon magenta inspired by the album cover */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    transition: all 0.5s ease;
+    color: white; /* White text to contrast against the dark and vibrant background */
+}
+
+.login-container {
+    text-align: center;
+    background-color: rgba(20, 20, 40, 0.9); /* Semi-transparent, dark container */
+    padding: 30px;
+    border-radius: 16px;
+    box-shadow: 0 8px 30px rgba(0, 0, 0, 0.8); /* Dark shadows for a bold, dramatic effect */
+    width: 350px;
+    backdrop-filter: blur(10px); /* Blur to create depth */
+}
+
+.logo img {
+    width: 90px;
+    margin-bottom: 20px;
+    filter: drop-shadow(0 4px 6px rgba(0, 0, 0, 0.6)); /* Subtle shadow effect */
+}
+
+h1 {
+    font-size: 26px;
+    margin-bottom: 20px;
+    color: #eaeaea; /* Light gray for contrast */
+    font-weight: bold;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7); /* Strong shadow for drama */
+}
+
+.login-box {
+    margin-bottom: 20px;
+}
+
+.input-box {
+    margin-bottom: 15px;
+}
+
+.input-box input {
+    width: 100%;
+    padding: 12px;
+    font-size: 14px;
+    border-radius: 8px;
+    border: 1px solid #555;
+    background-color: #2a2a4a; /* Darker input background */
+    color: #fff; /* White input text */
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.3);
+}
+
+.input-box input::placeholder {
+    color: #bbb; /* Light placeholder text */
+}
+
+.button-box button {
+    width: 100%;
+    padding: 12px;
+    background: linear-gradient(45deg, #ff00ff, #7f00ff); /* Neon pink and purple gradient for drama */
+    color: white;
+    border: none;
+    border-radius: 8px;
+    font-size: 16px;
+    cursor: pointer;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.3);
+    transition: background-color 0.3s ease;
+}
+
+.button-box button:hover {
+    background-color: #6a00d4; /* Darken hover state */
+}
+
+.language {
+    margin-top: 10px;
+}
+
+.language a {
+    color: #d4d4ff; /* Light blue text for links */
+    text-decoration: none;
+    font-size: 12px;
+}
+
+.language a:hover {
+    text-decoration: underline;
+}
