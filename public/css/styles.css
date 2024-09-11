@@ -6,37 +6,37 @@
 
 body {
     font-family: Arial, sans-serif;
-    background: linear-gradient(135deg, #0b0033, #1a004d, #290065, #7f00ff, #ff00ff); /* Dark purples and blues with neon magenta inspired by the album cover */
+    background: linear-gradient(135deg, #1c1f2b, #4c4c66, #0a0a0f); /* Dark, dramatic gradient */
     display: flex;
     justify-content: center;
     align-items: center;
     height: 100vh;
     transition: all 0.5s ease;
-    color: white; /* White text to contrast against the dark and vibrant background */
+    color: white; /* Change text color to white for better contrast */
 }
 
 .login-container {
     text-align: center;
-    background-color: rgba(20, 20, 40, 0.9); /* Semi-transparent, dark container */
+    background-color: rgba(50, 50, 75, 0.85); /* Semi-transparent dark background */
     padding: 30px;
     border-radius: 16px;
-    box-shadow: 0 8px 30px rgba(0, 0, 0, 0.8); /* Dark shadows for a bold, dramatic effect */
+    box-shadow: 0 8px 30px rgba(0, 0, 0, 0.6); /* Stronger shadow for drama */
     width: 350px;
-    backdrop-filter: blur(10px); /* Blur to create depth */
+    backdrop-filter: blur(10px); /* Adding blur for a futuristic feel */
 }
 
 .logo img {
     width: 90px;
     margin-bottom: 20px;
-    filter: drop-shadow(0 4px 6px rgba(0, 0, 0, 0.6)); /* Subtle shadow effect */
+    filter: drop-shadow(0 4px 6px rgba(0, 0, 0, 0.5)); /* Logo shadow for drama effect */
 }
 
 h1 {
     font-size: 26px;
     margin-bottom: 20px;
-    color: #eaeaea; /* Light gray for contrast */
+    color: #eaeaea; /* Light gray text */
     font-weight: bold;
-    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7); /* Strong shadow for drama */
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.6); /* Dramatic text shadow */
 }
 
 .login-box {
@@ -52,20 +52,20 @@ h1 {
     padding: 12px;
     font-size: 14px;
     border-radius: 8px;
-    border: 1px solid #555;
-    background-color: #2a2a4a; /* Darker input background */
-    color: #fff; /* White input text */
+    border: 1px solid #666;
+    background-color: #2c2f3a; /* Darker input background */
+    color: #fff; /* White text inside input */
     box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.3);
 }
 
 .input-box input::placeholder {
-    color: #bbb; /* Light placeholder text */
+    color: #bbb; /* Lighter placeholder text */
 }
 
 .button-box button {
     width: 100%;
     padding: 12px;
-    background: linear-gradient(45deg, #ff00ff, #7f00ff); /* Neon pink and purple gradient for drama */
+    background-color: #f04a5b; /* Bold, neon red button */
     color: white;
     border: none;
     border-radius: 8px;
@@ -76,7 +76,7 @@ h1 {
 }
 
 .button-box button:hover {
-    background-color: #6a00d4; /* Darken hover state */
+    background-color: #d9394e; /* Darken button on hover */
 }
 
 .language {
@@ -84,7 +84,7 @@ h1 {
 }
 
 .language a {
-    color: #d4d4ff; /* Light blue text for links */
+    color: #eaeaea; /* Light gray text */
     text-decoration: none;
     font-size: 12px;
 }
